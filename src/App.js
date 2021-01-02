@@ -5,8 +5,6 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import Articles from './components/Articles';
 import ShowingResults from './components/layout/ShowingResults';
-//const NewsAPI = require('newsapi');
-//const newsapi = new NewsAPI('cdd814705fa840f887697f712d85ca4f');
 const Sentiment = require('sentiment');
 
 
@@ -41,8 +39,7 @@ class App extends Component {
     toPublishedDate: 'null'
   },
   headers: {
-    'x-rapidapi-key': 'fd23c58a81msh7049a97dee982abp1d9c90jsne07e42deb39e',
-    'x-rapidapi-host': 'contextualwebsearch-websearch-v1.p.rapidapi.com'
+    //keys
   }
 };
 
