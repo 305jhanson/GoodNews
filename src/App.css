@@ -1,0 +1,36 @@
+ *{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+ }
+
+ body {
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 1.4;
+   margin:0;
+ }
+
+ a {
+   color: #333;
+   text-decoration: none;
+ }
+
+ .container {
+   padding: 0 1rem;
+   background-clip: padding-box;
+   width:80%;
+ }
+
+ .btn {
+   display: inline-block;
+   border: none;
+   background: #555;
+   color: #fff;
+   padding: 7px 25px;
+   cursor: pointer;
+   margin-bottom: 2px;
+ }
+
+ .btn:hover {
+   background: #666;
+ }
